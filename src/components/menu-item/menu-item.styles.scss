@@ -10,6 +10,7 @@
     background-position: center;
     background-size: cover;
     overflow: hidden;
+    line-height: 5px;
   
     &:hover {
         cursor: pointer;
@@ -19,10 +20,11 @@
             transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
         }
 
-        * .content {
+        & .content {
             opacity: 0.9;
         }
     }
+    
     &.large {
         height: 380px;
     }
